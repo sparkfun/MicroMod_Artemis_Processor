@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -21194,7 +21194,7 @@ Out</text>
 <text x="76.454" y="58.166" size="2.54" layer="97" font="vector" align="center">USB-to-Serial Converter</text>
 <text x="71.374" y="119.126" size="2.54" layer="97" font="vector" align="center">Bootloader Reset Circuit</text>
 <text x="213.614" y="266.446" size="2.54" layer="97" font="vector" align="center">MicroMod Connector</text>
-<text x="343.154" y="248.666" size="2.54" layer="97" font="vector" align="center">3.3V to 2V Scaling</text>
+<text x="342.9" y="246.38" size="2.54" layer="97" font="vector" align="center">3.3V to 2V Scaling</text>
 <text x="421.64" y="7.62" size="2.54" layer="94">v1.2</text>
 <text x="348.742" y="11.176" size="2.54" layer="94">N. Seidle</text>
 <text x="76.454" y="256.286" size="2.54" layer="97" font="vector" align="center">Artemis</text>
@@ -21212,6 +21212,10 @@ Out</text>
 <text x="211.074" y="144.526" size="2.54" layer="97" font="vector" align="center">Vin: 1.755 - 3.63V</text>
 <text x="176.276" y="257.302" size="1.778" layer="97">0.65uA Leakage
 0.3V drop at 10mA</text>
+<text x="340.36" y="99.06" size="1.27" layer="91">Connect D24 to SDIO_CLK
+Move TX1 from D24 to somewhere else
+consider 1,7,10,15,19,28 for CE0/!CS!</text>
+<text x="342.9" y="243.84" size="1.27" layer="97" align="center">30uA (typ) per channel</text>
 </plain>
 <instances>
 <instance part="U1" gate="U1" x="76.2" y="208.28" smashed="yes">
@@ -22020,12 +22024,6 @@ Out</text>
 <pinref part="U1" gate="U1" pin="XO"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<wire x1="42.4942" y1="210.82" x2="30.48" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="210.82" x2="30.48" y2="213.1303625" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -22187,25 +22185,17 @@ Out</text>
 <label x="40.64" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U1" gate="U1" pin="XI"/>
-<wire x1="43.18" y1="210.82" x2="42.8498" y2="210.82" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="213.36" x2="25.4" y2="213.36" width="0.1524" layer="91"/>
-<junction x="27.94" y="213.36"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="210.82" x2="27.94" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="30.0482" y1="213.36" x2="27.94" y2="213.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="30.48" y1="213.36" x2="30.4038" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U1" pin="XI"/>
+<wire x1="43.18" y1="210.82" x2="30.48" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="210.82" x2="30.48" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="213.36" x2="27.94" y2="213.36" width="0.1524" layer="91"/>
+<junction x="27.94" y="213.36"/>
 </segment>
 </net>
 <net name="SCALED_BATT_VIN/3" class="0">
