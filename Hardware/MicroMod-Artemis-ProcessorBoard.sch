@@ -21245,7 +21245,7 @@ Out</text>
 <text x="71.374" y="119.126" size="2.54" layer="97" font="vector" align="center">Bootloader Reset Circuit</text>
 <text x="213.614" y="266.446" size="2.54" layer="97" font="vector" align="center">MicroMod Connector</text>
 <text x="342.9" y="246.38" size="2.54" layer="97" font="vector" align="center">3.3V to 2V Scaling</text>
-<text x="421.64" y="7.62" size="2.54" layer="94">v1.2</text>
+<text x="421.64" y="7.62" size="2.54" layer="94">v1.4</text>
 <text x="348.742" y="11.176" size="2.54" layer="94">N. Seidle</text>
 <text x="76.454" y="256.286" size="2.54" layer="97" font="vector" align="center">Artemis</text>
 <wire x1="0" y1="137.16" x2="142.24" y2="137.16" width="0.2032" layer="97" style="longdash"/>
