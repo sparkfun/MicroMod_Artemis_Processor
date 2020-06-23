@@ -378,9 +378,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="VDD*2" x="-33.02" y="38.1" visible="pin" length="short"/>
 <pin name="GND*6" x="-33.02" y="-43.18" visible="pin" length="short"/>
 <pin name="~D48(TX0/SCL5/SCK5)" x="-33.02" y="20.32" visible="pin" length="short"/>
-<pin name="~D49(RX0/SDA5/MISO5)" x="-33.02" y="17.78" visible="pin" length="short"/>
+<pin name="~D49(RX0/SDA5/SDI5)" x="-33.02" y="17.78" visible="pin" length="short"/>
 <pin name="!RST" x="-33.02" y="33.02" visible="pin" length="short"/>
-<pin name="~BOOT(MOSI5/RX1/32KHZ)" x="-33.02" y="27.94" visible="pin" length="short"/>
+<pin name="~BOOT(SDO5/RX1/32KHZ)" x="-33.02" y="27.94" visible="pin" length="short"/>
 <pin name="D21(SWDIO/RX1/SCCRST)" x="-33.02" y="10.16" visible="pin" length="short"/>
 <pin name="D20(SWDCK/TX1)" x="-33.02" y="7.62" visible="pin" length="short"/>
 <pin name="~AD33(SWO/32KHZ)" x="-33.02" y="-25.4" visible="pin" length="short"/>
@@ -396,16 +396,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="AD34(CMPRF2/PDMDATA)" x="-33.02" y="-27.94" visible="pin" length="short"/>
 <pin name="~AD35(TX1/I2SDAT/PDMCLK)" x="-33.02" y="-30.48" visible="pin" length="short"/>
 <pin name="(SLSCK/SLSCL/CLKOUT)D0" x="35.56" y="38.1" visible="pin" length="short" rot="R180"/>
-<pin name="(SLMOSI/SLSDA)D1" x="35.56" y="35.56" visible="pin" length="short" rot="R180"/>
-<pin name="(SLMISO)D2" x="35.56" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="(SLSDO/SLSDA)D1" x="35.56" y="35.56" visible="pin" length="short" rot="R180"/>
+<pin name="(SLSDI)D2" x="35.56" y="33.02" visible="pin" length="short" rot="R180"/>
 <pin name="(SLNCE/I2SWCLK)D3" x="35.56" y="30.48" visible="pin" length="short" rot="R180"/>
 <pin name="(RX1/SLINT)~D4" x="35.56" y="27.94" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL0/SCK0)~D5" x="35.56" y="25.4" visible="pin" length="short" rot="R180"/>
-<pin name="(SDA0/MISO0/I2SDAT)~D6" x="35.56" y="22.86" visible="pin" length="short" rot="R180"/>
-<pin name="(MOSI0/CLKOUT)~D7" x="35.56" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="(SDA0/SDI0/I2SDAT)~D6" x="35.56" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="(SDO0/CLKOUT)~D7" x="35.56" y="20.32" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL1/SCK1/TX1/SCCLK)D8" x="35.56" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="(SDA1/MISO1/RX1/SCCIO)D9" x="35.56" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="(MOSI1/TX1/PDMCLK)D10" x="35.56" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="(SDA1/SDI1/RX1/SCCIO)D9" x="35.56" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="(SDO1/TX1/PDMCLK)D10" x="35.56" y="12.7" visible="pin" length="short" rot="R180"/>
 <pin name="(ADCD1P/TX1/PDMCLK)D14" x="35.56" y="10.16" visible="pin" length="short" rot="R180"/>
 <pin name="(ADCD1N/RX1/PDMDATA)D15" x="35.56" y="7.62" visible="pin" length="short" rot="R180"/>
 <pin name="(CMPRF1/TRIG1/SCCCLK)D17" x="35.56" y="5.08" visible="pin" length="short" rot="R180"/>
@@ -415,18 +415,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="(I2SWCLK/CMPOUT)~D23" x="35.56" y="-5.08" visible="pin" length="short" rot="R180"/>
 <pin name="(TX1/32KHZ/SWO)~D24" x="35.56" y="-7.62" visible="pin" length="short" rot="R180"/>
 <pin name="(SCCRST)~D26" x="35.56" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="(SDA2/MISO2/RX1)~D25" x="35.56" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="(SDA2/SDI2/RX1)~D25" x="35.56" y="-10.16" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL2/SCK2)~D27" x="35.56" y="-15.24" visible="pin" length="short" rot="R180"/>
-<pin name="(MOSI2/I2SWCLK)~D28" x="35.56" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="(SDO2/I2SWCLK)~D28" x="35.56" y="-17.78" visible="pin" length="short" rot="R180"/>
 <pin name="(RX1/TRIG1/PDMDATA)D36" x="35.56" y="-20.32" visible="pin" length="short" rot="R180"/>
 <pin name="(TX1/PDMCLK/SCCIO)~D37" x="35.56" y="-22.86" visible="pin" length="short" rot="R180"/>
-<pin name="(MOSI3/RX1)D38" x="35.56" y="-25.4" visible="pin" length="short" rot="R180"/>
+<pin name="(SDO3/RX1)D38" x="35.56" y="-25.4" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL4/SCK4/TX1)~D39" x="35.56" y="-27.94" visible="pin" length="short" rot="R180"/>
-<pin name="(SDA4/MISO4/RX1)D40" x="35.56" y="-30.48" visible="pin" length="short" rot="R180"/>
+<pin name="(SDA4/SDI4/RX1)D40" x="35.56" y="-30.48" visible="pin" length="short" rot="R180"/>
 <pin name="(BLEIF_IRQ/SWO/I2SWCLK)D41" x="35.56" y="-33.02" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL3/SCK3/TX1)~D42" x="35.56" y="-35.56" visible="pin" length="short" rot="R180"/>
-<pin name="(SDA3/MISO3/RX1)~D43" x="35.56" y="-38.1" visible="pin" length="short" rot="R180"/>
-<pin name="(MOSI4)~D44" x="35.56" y="-40.64" visible="pin" length="short" rot="R180"/>
+<pin name="(SDA3/SDI3/RX1)~D43" x="35.56" y="-38.1" visible="pin" length="short" rot="R180"/>
+<pin name="(SDO4)~D44" x="35.56" y="-40.64" visible="pin" length="short" rot="R180"/>
 <pin name="(SWO/I2SDAT/PDMDATA)~D45" x="35.56" y="-43.18" visible="pin" length="short" rot="R180"/>
 <text x="-30.48" y="41.148" size="1.778" layer="95">&gt;Name</text>
 <text x="-30.48" y="-48.26" size="1.778" layer="96">&gt;Value</text>
@@ -451,11 +451,6 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <connect gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19" pad="~D19"/>
 <connect gate="U1" pin="(CMPRF1/TRIG1/SCCCLK)D17" pad="D17"/>
 <connect gate="U1" pin="(I2SWCLK/CMPOUT)~D23" pad="~D23"/>
-<connect gate="U1" pin="(MOSI0/CLKOUT)~D7" pad="D7"/>
-<connect gate="U1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
-<connect gate="U1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
-<connect gate="U1" pin="(MOSI3/RX1)D38" pad="D38"/>
-<connect gate="U1" pin="(MOSI4)~D44" pad="~D44"/>
 <connect gate="U1" pin="(PDMCLK/SWO)~D22" pad="~D22"/>
 <connect gate="U1" pin="(RX1/SLINT)~D4" pad="~D4"/>
 <connect gate="U1" pin="(RX1/TRIG1/PDMDATA)D36" pad="D36"/>
@@ -465,15 +460,20 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <connect gate="U1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
 <connect gate="U1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
 <connect gate="U1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
-<connect gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
-<connect gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
-<connect gate="U1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
-<connect gate="U1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
-<connect gate="U1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
-<connect gate="U1" pin="(SLMISO)D2" pad="D2"/>
-<connect gate="U1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
+<connect gate="U1" pin="(SDA0/SDI0/I2SDAT)~D6" pad="~D6"/>
+<connect gate="U1" pin="(SDA1/SDI1/RX1/SCCIO)D9" pad="D9"/>
+<connect gate="U1" pin="(SDA2/SDI2/RX1)~D25" pad="~D25"/>
+<connect gate="U1" pin="(SDA3/SDI3/RX1)~D43" pad="~D43"/>
+<connect gate="U1" pin="(SDA4/SDI4/RX1)D40" pad="D40"/>
+<connect gate="U1" pin="(SDO0/CLKOUT)~D7" pad="D7"/>
+<connect gate="U1" pin="(SDO1/TX1/PDMCLK)D10" pad="D10"/>
+<connect gate="U1" pin="(SDO2/I2SWCLK)~D28" pad="~D28"/>
+<connect gate="U1" pin="(SDO3/RX1)D38" pad="D38"/>
+<connect gate="U1" pin="(SDO4)~D44" pad="~D44"/>
 <connect gate="U1" pin="(SLNCE/I2SWCLK)D3" pad="D3"/>
 <connect gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
+<connect gate="U1" pin="(SLSDI)D2" pad="D2"/>
+<connect gate="U1" pin="(SLSDO/SLSDA)D1" pad="D1"/>
 <connect gate="U1" pin="(SWO/I2SDAT/PDMDATA)~D45" pad="~D45"/>
 <connect gate="U1" pin="(TX1/32KHZ/SWO)~D24" pad="~D24"/>
 <connect gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37" pad="~D37"/>
@@ -493,9 +493,9 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <connect gate="U1" pin="~AD32(SCCIO)" pad="~AD32"/>
 <connect gate="U1" pin="~AD33(SWO/32KHZ)" pad="~AD33/SWO"/>
 <connect gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)" pad="~AD35"/>
-<connect gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)" pad="BOOT"/>
+<connect gate="U1" pin="~BOOT(SDO5/RX1/32KHZ)" pad="BOOT"/>
 <connect gate="U1" pin="~D48(TX0/SCL5/SCK5)" pad="TXO-0"/>
-<connect gate="U1" pin="~D49(RX0/SDA5/MISO5)" pad="RXI-0"/>
+<connect gate="U1" pin="~D49(RX0/SDA5/SDI5)" pad="RXI-0"/>
 </connects>
 <technologies>
 <technology name="">
@@ -20962,9 +20962,9 @@ Out</text>
 <wire x1="20.32" y1="-45.72" x2="-20.32" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-45.72" x2="-20.32" y2="53.34" width="0.254" layer="94"/>
 <pin name="SPI_SCK/SDIO_CLK" x="22.86" y="50.8" length="short" rot="R180"/>
-<pin name="SPI_MOSI/SDIO_CMD" x="22.86" y="48.26" length="short" rot="R180"/>
+<pin name="SPI_SDO/SDIO_CMD" x="22.86" y="48.26" length="short" rot="R180"/>
 <pin name="SDIO_DATA1" x="22.86" y="43.18" length="short" rot="R180"/>
-<pin name="SPI_MISO/SDIO_DATA0" x="22.86" y="45.72" length="short" rot="R180"/>
+<pin name="SPI_SDI/SDIO_DATA0" x="22.86" y="45.72" length="short" rot="R180"/>
 <pin name="SDIO_DATA2" x="22.86" y="40.64" length="short" rot="R180"/>
 <pin name="SPI_!CS!/SDIO_DATA3" x="22.86" y="38.1" length="short" rot="R180"/>
 <pin name="AUD_MCLK" x="-22.86" y="0" length="short"/>
@@ -20980,8 +20980,8 @@ Out</text>
 <pin name="PWM1" x="22.86" y="12.7" length="short" rot="R180"/>
 <pin name="PWM0" x="22.86" y="15.24" length="short" rot="R180"/>
 <pin name="SPI_SCK1" x="22.86" y="33.02" length="short" rot="R180"/>
-<pin name="SPI_MOSI1" x="22.86" y="30.48" length="short" rot="R180"/>
-<pin name="SPI_MISO1" x="22.86" y="27.94" length="short" rot="R180"/>
+<pin name="SPI_SDO1" x="22.86" y="30.48" length="short" rot="R180"/>
+<pin name="SPI_SDI1" x="22.86" y="27.94" length="short" rot="R180"/>
 <pin name="BATT_VIN/3" x="-22.86" y="-30.48" length="short"/>
 <pin name="RX1" x="22.86" y="0" length="short" rot="R180"/>
 <pin name="TX1" x="22.86" y="2.54" length="short" rot="R180"/>
@@ -21081,12 +21081,12 @@ Out</text>
 <connect gate="J1" pin="SDIO_DATA2" pad="68"/>
 <connect gate="J1" pin="SPI_!CS!/SDIO_DATA3" pad="70"/>
 <connect gate="J1" pin="SPI_!CS!1" pad="55"/>
-<connect gate="J1" pin="SPI_MISO/SDIO_DATA0" pad="64"/>
-<connect gate="J1" pin="SPI_MISO1" pad="61"/>
-<connect gate="J1" pin="SPI_MOSI/SDIO_CMD" pad="62"/>
-<connect gate="J1" pin="SPI_MOSI1" pad="59"/>
 <connect gate="J1" pin="SPI_SCK/SDIO_CLK" pad="60"/>
 <connect gate="J1" pin="SPI_SCK1" pad="57"/>
+<connect gate="J1" pin="SPI_SDI/SDIO_DATA0" pad="64"/>
+<connect gate="J1" pin="SPI_SDI1" pad="61"/>
+<connect gate="J1" pin="SPI_SDO/SDIO_CMD" pad="62"/>
+<connect gate="J1" pin="SPI_SDO1" pad="59"/>
 <connect gate="J1" pin="SWDCK" pad="21"/>
 <connect gate="J1" pin="SWDIO" pad="23"/>
 <connect gate="J1" pin="TX1" pad="17"/>
@@ -21148,12 +21148,12 @@ Out</text>
 <connect gate="J1" pin="SDIO_DATA2" pad="68"/>
 <connect gate="J1" pin="SPI_!CS!/SDIO_DATA3" pad="70"/>
 <connect gate="J1" pin="SPI_!CS!1" pad="55"/>
-<connect gate="J1" pin="SPI_MISO/SDIO_DATA0" pad="64"/>
-<connect gate="J1" pin="SPI_MISO1" pad="61"/>
-<connect gate="J1" pin="SPI_MOSI/SDIO_CMD" pad="62"/>
-<connect gate="J1" pin="SPI_MOSI1" pad="59"/>
 <connect gate="J1" pin="SPI_SCK/SDIO_CLK" pad="60"/>
 <connect gate="J1" pin="SPI_SCK1" pad="57"/>
+<connect gate="J1" pin="SPI_SDI/SDIO_DATA0" pad="64"/>
+<connect gate="J1" pin="SPI_SDI1" pad="61"/>
+<connect gate="J1" pin="SPI_SDO/SDIO_CMD" pad="62"/>
+<connect gate="J1" pin="SPI_SDO1" pad="59"/>
 <connect gate="J1" pin="SWDCK" pad="21"/>
 <connect gate="J1" pin="SWDIO" pad="23"/>
 <connect gate="J1" pin="TX1" pad="17"/>
@@ -21241,13 +21241,13 @@ Out</text>
 <sheets>
 <sheet>
 <plain>
-<text x="76.454" y="58.166" size="2.54" layer="97" font="vector" align="center">USB-to-Serial Converter</text>
-<text x="71.374" y="119.126" size="2.54" layer="97" font="vector" align="center">Bootloader Reset Circuit</text>
-<text x="213.614" y="266.446" size="2.54" layer="97" font="vector" align="center">MicroMod Connector</text>
-<text x="342.9" y="246.38" size="2.54" layer="97" font="vector" align="center">3.3V to 2V Scaling</text>
+<text x="76.454" y="58.166" size="2.54" layer="94" font="vector" align="center">USB-to-Serial Converter</text>
+<text x="71.374" y="119.126" size="2.54" layer="94" font="vector" align="center">Bootloader Reset Circuit</text>
+<text x="213.614" y="266.446" size="2.54" layer="94" font="vector" align="center">MicroMod Connector</text>
+<text x="342.9" y="246.38" size="2.54" layer="94" font="vector" align="center">3.3V to 2V Scaling</text>
 <text x="421.64" y="7.62" size="2.54" layer="94">v1.4</text>
 <text x="348.742" y="11.176" size="2.54" layer="94">N. Seidle</text>
-<text x="76.454" y="256.286" size="2.54" layer="97" font="vector" align="center">Artemis</text>
+<text x="76.454" y="256.286" size="2.54" layer="94" font="vector" align="center">Artemis</text>
 <wire x1="0" y1="137.16" x2="142.24" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <wire x1="142.24" y1="137.16" x2="142.24" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="142.24" y1="137.16" x2="271.78" y2="137.16" width="0.2032" layer="97" style="longdash"/>
@@ -21258,14 +21258,11 @@ Out</text>
 <wire x1="142.24" y1="68.58" x2="0" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="142.24" y1="68.58" x2="271.78" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="271.78" y1="68.58" x2="271.78" y2="137.16" width="0.2032" layer="97" style="longdash"/>
-<text x="211.074" y="119.126" size="2.54" layer="97" font="vector" align="center">Status LED</text>
+<text x="211.074" y="119.126" size="2.54" layer="94" font="vector" align="center">Status LED</text>
 <text x="211.074" y="144.526" size="2.54" layer="97" font="vector" align="center">Vin: 1.755 - 3.63V</text>
 <text x="176.276" y="257.302" size="1.778" layer="97">0.65uA Leakage
 0.3V drop at 10mA</text>
-<text x="340.36" y="99.06" size="1.27" layer="91">Connect D24 to SDIO_CLK
-Move TX1 from D24 to somewhere else
-consider 1,7,10,15,19,28 for CE0/!CS!</text>
-<text x="342.9" y="243.84" size="1.27" layer="97" align="center">30uA (typ) per channel</text>
+<text x="342.9" y="243.84" size="1.27" layer="94" align="center">30uA (typ) per channel</text>
 </plain>
 <instances>
 <instance part="U1" gate="U1" x="76.2" y="208.28" smashed="yes">
@@ -21620,7 +21617,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <pinref part="J1" gate="J1" pin="!BOOT!"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)"/>
+<pinref part="U1" gate="U1" pin="~BOOT(SDO5/RX1/32KHZ)"/>
 <wire x1="43.18" y1="236.22" x2="40.64" y2="236.22" width="0.1524" layer="91"/>
 <label x="40.64" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -21674,29 +21671,34 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <segment>
 <wire x1="236.22" y1="228.6" x2="238.76" y2="228.6" width="0.1524" layer="91"/>
 <label x="238.76" y="228.6" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="J1" gate="J1" pin="SPI_MOSI1"/>
+<pinref part="J1" gate="J1" pin="SPI_SDO1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(MOSI3/RX1)D38"/>
+<pinref part="U1" gate="U1" pin="(SDO3/RX1)D38"/>
 <wire x1="111.76" y1="182.88" x2="114.3" y2="182.88" width="0.1524" layer="91"/>
 <label x="114.3" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TX1" class="0">
+<net name="SPI_SCK/QSPI_CLK" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="(TX1/32KHZ/SWO)~D24"/>
 <wire x1="111.76" y1="200.66" x2="114.3" y2="200.66" width="0.1524" layer="91"/>
 <label x="114.3" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="236.22" y1="200.66" x2="238.76" y2="200.66" width="0.1524" layer="91"/>
-<label x="238.76" y="200.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="J1" pin="TX1"/>
+<pinref part="U1" gate="U1" pin="(SCL0/SCK0)~D5"/>
+<wire x1="111.76" y1="233.68" x2="114.3" y2="233.68" width="0.1524" layer="91"/>
+<label x="114.3" y="233.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="248.92" x2="238.76" y2="248.92" width="0.1524" layer="91"/>
+<label x="238.76" y="248.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="J1" pin="SPI_SCK/SDIO_CLK"/>
 </segment>
 </net>
 <net name="RX1" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="(SDA2/MISO2/RX1)~D25"/>
+<pinref part="U1" gate="U1" pin="(SDA2/SDI2/RX1)~D25"/>
 <wire x1="111.76" y1="198.12" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
 <label x="114.3" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -21732,7 +21734,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="(SDA4/MISO4/RX1)D40"/>
+<pinref part="U1" gate="U1" pin="(SDA4/SDI4/RX1)D40"/>
 <wire x1="111.76" y1="177.8" x2="114.3" y2="177.8" width="0.1524" layer="91"/>
 <label x="114.3" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -21766,23 +21768,11 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <pinref part="J1" gate="J1" pin="AUD_BCLK"/>
 </segment>
 </net>
-<net name="SPI_SCK" class="0">
-<segment>
-<pinref part="U1" gate="U1" pin="(SCL0/SCK0)~D5"/>
-<wire x1="111.76" y1="233.68" x2="114.3" y2="233.68" width="0.1524" layer="91"/>
-<label x="114.3" y="233.68" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="236.22" y1="248.92" x2="238.76" y2="248.92" width="0.1524" layer="91"/>
-<label x="238.76" y="248.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="J1" pin="SPI_SCK/SDIO_CLK"/>
-</segment>
-</net>
-<net name="SPI_MISO" class="0">
+<net name="SPI_MISO/QSPI0" class="0">
 <segment>
 <wire x1="236.22" y1="243.84" x2="238.76" y2="243.84" width="0.1524" layer="91"/>
 <label x="238.76" y="243.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="J1" pin="SPI_MISO/SDIO_DATA0"/>
+<pinref part="J1" gate="J1" pin="SPI_SDI/SDIO_DATA0"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="(PDMCLK/SWO)~D22"/>
@@ -21790,24 +21780,24 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <label x="114.3" y="205.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
+<pinref part="U1" gate="U1" pin="(SDA0/SDI0/I2SDAT)~D6"/>
 <wire x1="111.76" y1="231.14" x2="114.3" y2="231.14" width="0.1524" layer="91"/>
 <label x="114.3" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPI_MOSI" class="0">
+<net name="SPI_MOSI/QSPI_!CS!" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
+<pinref part="U1" gate="U1" pin="(SDO0/CLKOUT)~D7"/>
 <wire x1="111.76" y1="228.6" x2="114.3" y2="228.6" width="0.1524" layer="91"/>
 <label x="114.3" y="228.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="236.22" y1="246.38" x2="238.76" y2="246.38" width="0.1524" layer="91"/>
 <label x="238.76" y="246.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="J1" pin="SPI_MOSI/SDIO_CMD"/>
+<pinref part="J1" gate="J1" pin="SPI_SDO/SDIO_CMD"/>
 </segment>
 </net>
-<net name="SPI_!CS!" class="0">
+<net name="SPI_!CS!/QSPI3" class="0">
 <segment>
 <wire x1="236.22" y1="236.22" x2="238.76" y2="236.22" width="0.1524" layer="91"/>
 <label x="238.76" y="236.22" size="1.27" layer="95" xref="yes"/>
@@ -21863,7 +21853,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <pinref part="J1" gate="J1" pin="D0"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(SLMOSI/SLSDA)D1"/>
+<pinref part="U1" gate="U1" pin="(SLSDO/SLSDA)D1"/>
 <wire x1="111.76" y1="243.84" x2="114.3" y2="243.84" width="0.1524" layer="91"/>
 <label x="114.3" y="243.84" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -21875,7 +21865,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <pinref part="J1" gate="J1" pin="D1/CAM_TRIG"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(SLMISO)D2"/>
+<pinref part="U1" gate="U1" pin="(SLSDI)D2"/>
 <wire x1="111.76" y1="241.3" x2="114.3" y2="241.3" width="0.1524" layer="91"/>
 <label x="114.3" y="241.3" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -21887,7 +21877,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <pinref part="J1" gate="J1" pin="PWM0"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(MOSI4)~D44"/>
+<pinref part="U1" gate="U1" pin="(SDO4)~D44"/>
 <wire x1="111.76" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
 <label x="114.3" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -21931,7 +21921,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 </net>
 <net name="SDA1" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9"/>
+<pinref part="U1" gate="U1" pin="(SDA1/SDI1/RX1/SCCIO)D9"/>
 <wire x1="111.76" y1="223.52" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
 <label x="114.3" y="223.52" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -21941,7 +21931,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <label x="187.96" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SDIO_DATA1" class="0">
+<net name="QSPI1" class="0">
 <segment>
 <wire x1="236.22" y1="241.3" x2="238.76" y2="241.3" width="0.1524" layer="91"/>
 <label x="238.76" y="241.3" size="1.27" layer="95" xref="yes"/>
@@ -21953,7 +21943,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <label x="114.3" y="195.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SDIO_DATA2" class="0">
+<net name="QSPI2" class="0">
 <segment>
 <wire x1="236.22" y1="238.76" x2="238.76" y2="238.76" width="0.1524" layer="91"/>
 <label x="238.76" y="238.76" size="1.27" layer="95" xref="yes"/>
@@ -21965,7 +21955,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <label x="114.3" y="236.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADC_D-" class="0">
+<net name="TX1/ADC_D-" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="~AD12(PDMCLK/TX1)"/>
 <wire x1="43.18" y1="198.12" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
@@ -21975,6 +21965,11 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <wire x1="236.22" y1="160.02" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
 <label x="238.76" y="160.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="J1" pin="G9/ADC_D-/CAM_HSYNC"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="200.66" x2="238.76" y2="200.66" width="0.1524" layer="91"/>
+<label x="238.76" y="200.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="J1" pin="TX1"/>
 </segment>
 </net>
 <net name="ADC_D+" class="0">
@@ -21991,14 +21986,14 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 </net>
 <net name="SPI_MISO1" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="(SDA3/MISO3/RX1)~D43"/>
+<pinref part="U1" gate="U1" pin="(SDA3/SDI3/RX1)~D43"/>
 <wire x1="111.76" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <label x="114.3" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="236.22" y1="226.06" x2="238.76" y2="226.06" width="0.1524" layer="91"/>
 <label x="238.76" y="226.06" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="J1" gate="J1" pin="SPI_MISO1"/>
+<pinref part="J1" gate="J1" pin="SPI_SDI1"/>
 </segment>
 </net>
 <net name="CTS1" class="0">
@@ -22015,7 +22010,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 </net>
 <net name="RTS1" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="(MOSI1/TX1/PDMCLK)D10"/>
+<pinref part="U1" gate="U1" pin="(SDO1/TX1/PDMCLK)D10"/>
 <wire x1="111.76" y1="220.98" x2="114.3" y2="220.98" width="0.1524" layer="91"/>
 <label x="114.3" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -22088,7 +22083,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <pinref part="U6" gate="U1" pin="TXO"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="~D49(RX0/SDA5/MISO5)"/>
+<pinref part="U1" gate="U1" pin="~D49(RX0/SDA5/SDI5)"/>
 <wire x1="43.18" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
 <label x="40.64" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -22218,7 +22213,7 @@ consider 1,7,10,15,19,28 for CE0/!CS!</text>
 <pinref part="J1" gate="J1" pin="G4/BUS4"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(MOSI2/I2SWCLK)~D28"/>
+<pinref part="U1" gate="U1" pin="(SDO2/I2SWCLK)~D28"/>
 <wire x1="111.76" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
 <label x="114.3" y="190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
