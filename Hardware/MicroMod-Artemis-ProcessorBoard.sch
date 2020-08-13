@@ -18905,6 +18905,51 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="-0.5" y1="0" x2="-3.5" y2="0" width="0.2032" layer="21"/>
 <wire x1="0.5" y1="0" x2="3.5" y2="0" width="0.2032" layer="21"/>
 </package>
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="0805">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+</package>
+<package name="1210">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -19189,6 +19234,225 @@ CAP-09321</description>
 <technology name="">
 <attribute name="PROD_ID" value="CAP-15061" constant="no"/>
 <attribute name="VALUE" value="1nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.22UF" prefix="C">
+<description>&lt;h3&gt;0.22µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-25V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07822" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-50V-(-20/+80%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09885"/>
+<attribute name="VALUE" value="0.22uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-10V-10%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14846" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.0UF" prefix="C">
+<description>&lt;h3&gt;1µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-16V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00868"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-16V-10%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12417"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-(+80/-20%)" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11625"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-50V-10%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09822"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08064"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-16V-10%-X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13930"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-16V-10%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12417" constant="no"/>
+<attribute name="VALUE" value="1.0uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10UF" prefix="C">
+<description>&lt;h3&gt;10.0µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-6.3V-20%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11015"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-6.3V-20%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10057"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-10V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11330"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1210-50V-20%" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09824"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14259"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-6.3V-20%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14848" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21206,7 +21470,7 @@ Out</text>
 <part name="R14" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R15" library="SparkFun-Resistors" deviceset="220KOHM" device="-0402T-1/16W-1%" value="220KOHM-0402T-1/16W-1%"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="220KOHM" device="-0402T-1/16W-1%" value="220K"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="C28" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0402_TIGHT-50V-10%" value="1.0nF"/>
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -21237,6 +21501,15 @@ Out</text>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="J1" library="SparkFun-MicroMod" deviceset="MICROMOD" device="-2222"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="0.22UF" device="-0402T-10V-10%" value="0.22uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21245,7 +21518,7 @@ Out</text>
 <text x="71.374" y="119.126" size="2.54" layer="94" font="vector" align="center">Bootloader Reset Circuit</text>
 <text x="213.614" y="266.446" size="2.54" layer="94" font="vector" align="center">MicroMod Connector</text>
 <text x="342.9" y="246.38" size="2.54" layer="94" font="vector" align="center">3.3V to 2V Scaling</text>
-<text x="421.64" y="7.62" size="2.54" layer="94">v1.4</text>
+<text x="421.64" y="7.62" size="2.54" layer="94">v1.6</text>
 <text x="348.742" y="11.176" size="2.54" layer="94">N. Seidle</text>
 <text x="76.454" y="256.286" size="2.54" layer="94" font="vector" align="center">Artemis</text>
 <wire x1="0" y1="137.16" x2="142.24" y2="137.16" width="0.2032" layer="97" style="longdash"/>
@@ -21262,7 +21535,7 @@ Out</text>
 <text x="211.074" y="144.526" size="2.54" layer="97" font="vector" align="center">Vin: 1.755 - 3.63V</text>
 <text x="176.276" y="257.302" size="1.778" layer="97">0.65uA Leakage
 0.3V drop at 10mA</text>
-<text x="342.9" y="243.84" size="1.27" layer="94" align="center">30uA (typ) per channel</text>
+<text x="342.9" y="243.84" size="1.27" layer="97" align="center">30uA (typ) per channel</text>
 </plain>
 <instances>
 <instance part="U1" gate="U1" x="76.2" y="208.28" smashed="yes">
@@ -21349,6 +21622,7 @@ Out</text>
 </instance>
 <instance part="R15" gate="G$1" x="63.5" y="93.98" smashed="yes" rot="MR90">
 <attribute name="NAME" x="65.024" y="93.98" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="61.976" y="93.98" size="1.778" layer="96" font="vector" rot="MR90" align="top-center"/>
 </instance>
 <instance part="C21" gate="G$1" x="58.42" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.499" y="103.124" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -21452,6 +21726,36 @@ Out</text>
 <attribute name="NAME" x="193.04" y="251.968" size="1.778" layer="95"/>
 <attribute name="VALUE" x="193.04" y="149.86" size="1.778" layer="96"/>
 </instance>
+<instance part="C2" gate="G$1" x="30.48" y="30.48" smashed="yes">
+<attribute name="NAME" x="32.004" y="33.401" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="32.004" y="28.321" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C3" gate="G$1" x="20.32" y="30.48" smashed="yes">
+<attribute name="NAME" x="21.844" y="33.401" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="21.844" y="28.321" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C4" gate="G$1" x="10.16" y="30.48" smashed="yes">
+<attribute name="NAME" x="11.684" y="33.401" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="11.684" y="28.321" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="30.48" y="38.1" smashed="yes">
+<attribute name="VALUE" x="30.48" y="40.894" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="20.32" y="38.1" smashed="yes">
+<attribute name="VALUE" x="20.32" y="40.894" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="10.16" y="38.1" smashed="yes">
+<attribute name="VALUE" x="10.16" y="40.894" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND9" gate="1" x="30.48" y="22.86" smashed="yes">
+<attribute name="VALUE" x="30.48" y="22.606" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND10" gate="1" x="20.32" y="22.86" smashed="yes">
+<attribute name="VALUE" x="20.32" y="22.606" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND11" gate="1" x="10.16" y="22.86" smashed="yes">
+<attribute name="VALUE" x="10.16" y="22.606" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21504,6 +21808,21 @@ Out</text>
 <wire x1="172.72" y1="251.46" x2="172.72" y2="248.92" width="0.1524" layer="91"/>
 <junction x="172.72" y="248.92"/>
 <pinref part="J1" gate="J1" pin="RTC_3V"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
+<wire x1="30.48" y1="38.1" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<wire x1="20.32" y1="38.1" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+<wire x1="10.16" y1="38.1" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -21584,6 +21903,21 @@ Out</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="327.66" y1="162.56" x2="327.66" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="30.48" y1="27.94" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RESET!" class="0">
@@ -21679,7 +22013,7 @@ Out</text>
 <label x="114.3" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPI_SCK/QSPI_CLK" class="0">
+<net name="SPI_SCK/QSPI_SCK" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="(TX1/32KHZ/SWO)~D24"/>
 <wire x1="111.76" y1="200.66" x2="114.3" y2="200.66" width="0.1524" layer="91"/>
@@ -21715,9 +22049,9 @@ Out</text>
 <pinref part="J1" gate="J1" pin="I2C_!INT!"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(CMPIN1/SCCIO)~D18"/>
-<wire x1="111.76" y1="210.82" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
-<label x="114.3" y="210.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SLSDI)D2"/>
+<wire x1="111.76" y1="241.3" x2="114.3" y2="241.3" width="0.1524" layer="91"/>
+<label x="114.3" y="241.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -21853,9 +22187,9 @@ Out</text>
 <pinref part="J1" gate="J1" pin="D0"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(SLSDO/SLSDA)D1"/>
-<wire x1="111.76" y1="243.84" x2="114.3" y2="243.84" width="0.1524" layer="91"/>
-<label x="114.3" y="243.84" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0"/>
+<wire x1="111.76" y1="246.38" x2="114.3" y2="246.38" width="0.1524" layer="91"/>
+<label x="114.3" y="246.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -21865,9 +22199,9 @@ Out</text>
 <pinref part="J1" gate="J1" pin="D1/CAM_TRIG"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(SLSDI)D2"/>
-<wire x1="111.76" y1="241.3" x2="114.3" y2="241.3" width="0.1524" layer="91"/>
-<label x="114.3" y="241.3" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SLSDO/SLSDA)D1"/>
+<wire x1="111.76" y1="243.84" x2="114.3" y2="243.84" width="0.1524" layer="91"/>
+<label x="114.3" y="243.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PWM0" class="0">
@@ -22153,23 +22487,6 @@ Out</text>
 <label x="238.76" y="223.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CLKOUT" class="0">
-<segment>
-<pinref part="U1" gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0"/>
-<wire x1="111.76" y1="246.38" x2="114.3" y2="246.38" width="0.1524" layer="91"/>
-<label x="114.3" y="246.38" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="190.5" y1="195.58" x2="187.96" y2="195.58" width="0.1524" layer="91"/>
-<label x="185.42" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="187.96" y1="195.58" x2="185.42" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="198.12" x2="187.96" y2="198.12" width="0.1524" layer="91" style="longdash"/>
-<wire x1="187.96" y1="198.12" x2="187.96" y2="195.58" width="0.1524" layer="91" style="longdash"/>
-<junction x="187.96" y="195.58"/>
-<pinref part="J1" gate="J1" pin="AUD_MCLK"/>
-<pinref part="J1" gate="J1" pin="AUD_OUT/CAM_MCLK"/>
-</segment>
-</net>
 <net name="GPIO1" class="0">
 <segment>
 <wire x1="236.22" y1="180.34" x2="238.76" y2="180.34" width="0.1524" layer="91"/>
@@ -22378,6 +22695,23 @@ Out</text>
 <pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="180.34" y1="248.92" x2="190.5" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="3.3V"/>
+</segment>
+</net>
+<net name="CAM_MCLK" class="0">
+<segment>
+<pinref part="U1" gate="U1" pin="(CMPIN1/SCCIO)~D18"/>
+<wire x1="111.76" y1="210.82" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
+<label x="114.3" y="210.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="195.58" x2="187.96" y2="195.58" width="0.1524" layer="91"/>
+<label x="185.42" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="187.96" y1="195.58" x2="185.42" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="198.12" x2="187.96" y2="198.12" width="0.1524" layer="91" style="longdash"/>
+<wire x1="187.96" y1="198.12" x2="187.96" y2="195.58" width="0.1524" layer="91" style="longdash"/>
+<junction x="187.96" y="195.58"/>
+<pinref part="J1" gate="J1" pin="AUD_MCLK"/>
+<pinref part="J1" gate="J1" pin="AUD_OUT/CAM_MCLK"/>
 </segment>
 </net>
 </nets>
