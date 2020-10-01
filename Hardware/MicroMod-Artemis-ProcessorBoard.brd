@@ -3660,7 +3660,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </autorouter>
 <elements>
 <element name="U1" library="SparkFun-IC-Microcontroller" package="ARTEMIS_FP" value="ARTEMIS_MODULESMD" x="11.5" y="12" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="SUB-14479" x="11.5" y="12" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="SUB-14402" x="11.5" y="12" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-8.89" y="-8.89" smashed="yes">
 <attribute name="DESIGNER" value="" x="-8.89" y="-8.89" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -4072,7 +4072,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.3009875" y1="11.1" x2="7.307575" y2="10.1065875" width="0.1016" layer="2"/>
 <wire x1="13.9352875" y1="11.1" x2="8.3009875" y2="11.1" width="0.1016" layer="2"/>
 </signal>
-<signal name="SPI_SCK1">
+<signal name="SPI_SCK">
 <contactref element="U1" pad="~D42"/>
 <wire x1="3.84568125" y1="6.1096" x2="2.143075" y2="6.1096" width="0.1016" layer="1"/>
 <wire x1="2.143075" y1="6.1096" x2="1.516" y2="6.736675" width="0.1016" layer="1"/>
@@ -4091,7 +4091,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.25" y1="1.275" x2="6.25" y2="4.382625" width="0.1016" layer="1"/>
 <wire x1="5.292725" y1="4.66255625" x2="3.84568125" y2="6.1096" width="0.1016" layer="1"/>
 </signal>
-<signal name="SPI_MOSI1">
+<signal name="SPI_COPI">
 <contactref element="U1" pad="D38"/>
 <wire x1="5.75" y1="3.58736875" x2="3.63416875" y2="5.7032" width="0.1016" layer="1"/>
 <wire x1="3.63416875" y1="5.7032" x2="1.9747375" y2="5.7032" width="0.1016" layer="1"/>
@@ -4109,7 +4109,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J1" pad="59"/>
 <wire x1="5.75" y1="1.275" x2="5.75" y2="3.58736875" width="0.1016" layer="1"/>
 </signal>
-<signal name="SPI_SCK/QSPI_SCK">
+<signal name="SPI_SCK1/QSPI_SCK">
 <contactref element="U1" pad="~D24"/>
 <contactref element="U1" pad="~D5"/>
 <wire x1="5.5" y1="4.7" x2="6.3786" y2="5.5786" width="0.1016" layer="16"/>
@@ -4255,7 +4255,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.3626125" y1="9.8897125" x2="8.3604" y2="9.891925" width="0.1016" layer="15"/>
 <wire x1="8" y1="9.254875" x2="8.3626125" y2="9.6174875" width="0.1016" layer="15"/>
 </signal>
-<signal name="SPI_MISO/QSPI0">
+<signal name="SPI_CIPO1/QSPI0">
 <contactref element="U1" pad="~D22"/>
 <wire x1="15" y1="8.99391875" x2="15" y2="7.5" width="0.1016" layer="1"/>
 <contactref element="U1" pad="~D6"/>
@@ -4281,7 +4281,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="4.9" y1="5.7904" x2="7.37515" y2="5.7904" width="0.1016" layer="16"/>
 <wire x1="8.1096" y1="6.52485" x2="8.1096" y2="8.99749375" width="0.1016" layer="16"/>
 </signal>
-<signal name="SPI_MOSI/QSPI_!CS!">
+<signal name="SPI_COPI1/QSPI_!CS!">
 <contactref element="U1" pad="D7"/>
 <wire x1="13" y1="7.5" x2="13" y2="6.5602" width="0.1016" layer="1"/>
 <wire x1="13.5428" y1="6.0174" x2="13" y2="6.5602" width="0.1016" layer="1"/>
@@ -4295,7 +4295,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J1" pad="62"/>
 <wire x1="5" y1="1.525" x2="5" y2="3.3416875" width="0.1016" layer="16"/>
 </signal>
-<signal name="SPI_!CS!/QSPI3">
+<signal name="SPI_!CS1!/QSPI3">
 <contactref element="U1" pad="~D23"/>
 <wire x1="3" y1="5.5" x2="3.9" y2="6.4" width="0.1016" layer="16"/>
 <wire x1="7.5" y1="9.76164375" x2="8.0318" y2="10.29344375" width="0.1016" layer="16"/>
@@ -4580,7 +4580,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.75683125" y1="4.4032" x2="17.41543125" y2="4.7446" width="0.1016" layer="2"/>
 <wire x1="17.41543125" y1="4.7446" x2="10.44478125" y2="4.7446" width="0.1016" layer="2"/>
 </signal>
-<signal name="SPI_MISO1">
+<signal name="SPI_CIPO">
 <contactref element="U1" pad="~D43"/>
 <wire x1="5.25" y1="3.8" x2="3.55" y2="5.5" width="0.1016" layer="1"/>
 <wire x1="3.55" y1="5.5" x2="1.89056875" y2="5.5" width="0.1016" layer="1"/>
@@ -4808,7 +4808,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J1" pad="3"/>
 <wire x1="19.75" y1="1.275" x2="19.75" y2="2.094" width="0.1016" layer="1"/>
 </signal>
-<signal name="SPI_!CS!1">
+<signal name="SPI_!CS!">
 <contactref element="U1" pad="D41"/>
 <wire x1="14" y1="16.5" x2="14" y2="17.5714" width="0.1016" layer="1"/>
 <via x="14" y="17.5714" extent="1-16" drill="0.2"/>
