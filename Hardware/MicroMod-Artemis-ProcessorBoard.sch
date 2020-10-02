@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -21532,7 +21532,7 @@ Out</text>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
-<part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
+<part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="J1" library="SparkFun-MicroMod" deviceset="MICROMOD" device="-2222"/>
@@ -21568,8 +21568,8 @@ Out</text>
 <wire x1="271.78" y1="68.58" x2="271.78" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <text x="211.074" y="119.126" size="2.54" layer="94" font="vector" align="center">Status LED</text>
 <text x="211.074" y="144.526" size="2.54" layer="97" font="vector" align="center">Vin: 1.755 - 3.63V</text>
-<text x="176.276" y="257.302" size="1.778" layer="97">0.65uA Leakage
-0.3V drop at 10mA</text>
+<text x="176.276" y="257.302" size="1.778" layer="97">190uA Leakage
+0.08V drop at 1mA</text>
 <text x="342.9" y="243.84" size="1.27" layer="97" align="center">30uA (typ) per channel</text>
 </plain>
 <instances>

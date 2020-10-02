@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3781,10 +3781,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="14.612" y="9" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="11" y="17" smashed="yes" rot="MR0"/>
-<element name="D7" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="1.27" y="6.35" smashed="yes" rot="MR270">
+<element name="D7" library="SparkFun-DiscreteSemi" package="SOD-323" value="3A/10V/280mV" x="1.27" y="6.35" smashed="yes" rot="MR270">
 <attribute name="NAME" x="0.508" y="6.35" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-11623" x="1.27" y="7.62" size="1.778" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
-<attribute name="VALUE" x="2.032" y="6.35" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-14072" x="1.27" y="7.62" size="1.778" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
+<attribute name="VALUE" value="3A/10V/280mV" x="2.032" y="6.35" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="20" y="20" smashed="yes"/>
 <element name="U$4" library="SparkFun-Buzzard" package="STAT_TO_32" value="" x="0.7" y="19.8" smashed="yes"/>
