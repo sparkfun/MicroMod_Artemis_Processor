@@ -1,7 +1,7 @@
 SparkFun MicroMod Artemis Processor Board
 ========================================
 
-![SparkFun MicroMod Artemis Processor Board](URL for picture of part)
+![SparkFun MicroMod Artemis Processor Board](https://cdn.sparkfun.com/assets/parts/1/5/1/3/0/16401-SparkFun_MicroMod_Artemis_Processor-01.jpg)
 
 [*SparkFun MicroMod Artemis Processor Board (16401)*](https://www.sparkfun.com/products/16401)
 
@@ -18,11 +18,10 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/artemis-micromod-processor-board-hookup-guide)** - Basic hookup guide for the MicroMod Artemis Processor Board.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Test Sketches](https://github.com/sparkfun/MicroMod_Test_Sketches)** - Arduino test sketches for the MicroMod ecosystem.
+* **[Getting Started with MicroMod](https://learn.sparkfun.com/tutorials/getting-started-with-micromod)** - A tutorial to help you get started with the MicroMod Ecosystem. 
+* **[Designing with MicroMod](https://learn.sparkfun.com/tutorials/designing-with-micromod)** - Detailed tutorial on designing with the MicroMod standard. 
 
 License Information
 -------------------
