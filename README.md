@@ -18,7 +18,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/artemis-micromod-processor-board-hookup-guide)** - Basic hookup guide for the MicroMod Artemis Processor Board.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/micromod-artemis-processor-board-hookup-guide)** - Basic hookup guide for the MicroMod Artemis Processor Board.
 * **[Getting Started with MicroMod](https://learn.sparkfun.com/tutorials/getting-started-with-micromod)** - A tutorial to help you get started with the MicroMod Ecosystem. 
 
 License Information
